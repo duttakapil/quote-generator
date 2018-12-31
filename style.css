@@ -1,0 +1,32 @@
+.time {
+  display: block;
+  text-align: center;
+  font-size: 10em;
+  position: relative;
+}
+
+.main { 
+  text-align: center;    
+  color: #fff;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  position: relative;
+  margin-top: 20%;
+}
+
+.display {  
+  position: relative;
+  top: 100px;
+  font-family: 'Bilbo', cursive;
+  font-size : 20px;
+  margin-top : 20px;
+}
+
+
+
+.next {
+  border-radius: 50px;
+  background-color: #6F5FBA;
+  outline: none;
+  width: 4em;
+  height: 4em;
+}

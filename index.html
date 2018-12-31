@@ -1,0 +1,20 @@
+<head>
+    <title>Quotes by duttakapil</title>
+    <link rel="stylesheet" href="./style.css" type="text/css"></link>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.14/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="./script.js"></script>
+</head>
+<body ng-app="myApp">
+  <div class="main" ng-controller="MainController" ng-init="pickQuote()">
+    <span class="time">{{date | date : 'h:mm' }}</span>
+    <div class="display">        
+      <p id="quote"></p>
+      <p id="author"></p>
+      <button class="next" ng-click="pickQuote()">Next</button>      
+      <span id="tweet">     
+        
+      </span>
+    </div>
+  </div>    
+</body>
